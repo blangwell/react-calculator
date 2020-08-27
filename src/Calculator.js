@@ -15,7 +15,6 @@ class Calculator extends Component {
     }
 
     getResult = () => {
-        console.log(typeof this.state.num1, 'num 1')
         let result = parseInt(this.state.num1) + parseInt(this.state.num2)
         console.log('result ', result)
         this.setState({
